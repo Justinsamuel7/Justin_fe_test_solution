@@ -1,3 +1,65 @@
-h1, h2 {
-  font-family: Lato;
+#cardDisplay{
+  display: flex;
+  background-color: rgb(136, 255, 255);
+  width: max-content;
+  height:max-content;
+  padding: 2rem;
+  border: 2px solid rgb(115, 115, 115);
+  border-radius: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.listandbtns{
+  color: rgb(23, 135, 0);
+  width: 30rem;
+  background-color: rgba(218, 236, 255, 0.897);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgb(29, 206, 255);
+  border-radius: 1rem;
+}
+
+.delbtn{
+  background-color: rgb(255, 108, 108);
+  border: 1px solid rgb(204, 0, 0);
+  border-radius: 5px;
+}
+.delbtn:hover{
+  background-color: rgb(255, 147, 147);
+  position: relative;
+  bottom: 1px;
+  right: 1px;
+  box-shadow: 1px 1px 2px black;
+}
+
+.done{
+  background-color: rgb(118, 255, 108);
+  border: 1px solid rgb(0, 217, 54);
+  border-radius: 5px;
+}
+.done:hover{
+  background-color: rgb(182, 255, 177);
+  position: relative;
+  bottom: 1px;
+  right: 1px;
+  box-shadow: 1px 1px 2px black;
+
+}
+
+.inprog{
+  background-color: rgb(255, 138, 84);
+  border: 1px solid rgb(219, 66, 0);
+  border-radius: 5px;
+}
+.inprog:hover{
+  background-color: rgb(255, 177, 141);
+  position: relative;
+  bottom: 1px;
+  right: 1px;
+  box-shadow: 1px 1px 2px black;
+
 }
